@@ -67,10 +67,3 @@ TW_INCLUDE_FBE := true
 
 # Include
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/herolte/include
-
-
-# Init properties from bootloader version, ex. model info
-TARGET_UNIFIED_DEVICE := true
-TARGET_INIT_VENDOR_LIB := libinit_herolte
-TARGET_RECOVERY_DEVICE_MODULES := libinit_herolte
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/herolte/init/init_herolte.cpp
