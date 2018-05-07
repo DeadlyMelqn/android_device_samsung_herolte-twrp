@@ -73,4 +73,4 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/herolte/include
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_herolte
 TARGET_RECOVERY_DEVICE_MODULES := libinit_herolte
-TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_TREE)/init/init_herolte.cpp
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/herolte/init/init_herolte.cpp
