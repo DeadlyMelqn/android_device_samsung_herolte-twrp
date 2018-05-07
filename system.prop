@@ -1,2 +1,4 @@
-ro.arch=exynos9810
-ro.chipname=exynos9810
+ro.hardware=samsungexynos8890
+ro.chipname=exynos8890
+ro.arch=exynos8890
+ro.boot.bootdevice=155a0000.ufs
