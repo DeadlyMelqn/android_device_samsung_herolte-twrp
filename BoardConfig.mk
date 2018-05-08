@@ -24,6 +24,8 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-cortex_a53-linux-gnueabi/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-cortex_a53-linux-gnueabi-
 
 # Image
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/herolte/mkbootimg.mk
